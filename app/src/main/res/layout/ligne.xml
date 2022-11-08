@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100pt"
+    android:orientation="horizontal"
+    android:id="@+id/layout">
+
+        <TextView
+            android:id="@+id/governorat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Governorat" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="219dp"
+            android:layout_height="128dp"
+            android:padding="100px"
+            android:src="@drawable/bizerte" />
+
+
+</androidx.cardview.widget.CardView>
